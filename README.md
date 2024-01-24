@@ -4,7 +4,7 @@
 
 To see a demonstration of the slider with tooltip, you can view the video here:
 
-![see here](https://github.com/ritikbanger/multi-color-slider/blob/main/demo.gif)
+![see here](https://github.com/ritikbanger/multi-color-slider/blob/main/demo-video.gif)
 
 # old-version.html file
 
