@@ -19,6 +19,10 @@ This project creates a custom range slider with a dynamic tooltip. The tooltip d
 - **Responsive Design**: Ensures the slider looks good on various devices and screen sizes.
 - **Customizable Style**: Easy to customize with CSS variables.
 
+## Codepen
+
+![codepen](https://codepen.io/Ritik-Banger/pen/VwRzobv)
+
 ## Installation
 
 To use the slider in your project, follow these steps:
@@ -78,6 +82,10 @@ This HTML and CSS project demonstrates an interactive slider with a tooltip feat
 - **Advanced CSS Properties**:
   - `@property --value`: A custom property to track the slider's value.
   - `anchor-name` and `view-timeline`: These experimental properties are used in the `::-webkit-slider-thumb` for advanced interactions.
+
+## Codepen
+
+![codepen](https://codepen.io/Ritik-Banger/pen/bGZoNpR)
 
 ## Browser Compatibility
 
