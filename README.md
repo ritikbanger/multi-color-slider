@@ -1,5 +1,13 @@
 # Slider with Tooltip (multi-color-slider)
 
+## Video Demonstration
+
+To see a demonstration of the slider with tooltip, you can view the video here:
+
+![see here](https://github.com/ritikbanger/multi-color-slider/blob/main/demo.mp4)
+
+# old-version.html file
+
 ## Overview
 
 This project creates a custom range slider with a dynamic tooltip. The tooltip displays the current value of the slider and moves along with the slider thumb. The project is built using HTML, CSS, and JavaScript.
@@ -21,8 +29,6 @@ To use the slider in your project, follow these steps:
 
 2. **Open the File**
    - Open the `old-version.html` file in a web browser to see the slider in action.
-
-Certainly! To add an explanation of the code to the README, you can include sections that describe the structure and functionality of the HTML, CSS, and JavaScript components. Here's how you can enhance the README to include these explanations:
 
 ## Code Explanation
 
@@ -58,6 +64,57 @@ You can customize the appearance and behavior of the slider by modifying the CSS
 ## Browser Compatibility
 
 This slider has been tested on modern web browsers like Chrome, Firefox, and Edge. For full compatibility, ensure your browser supports HTML5, CSS3, and ES6 JavaScript.
+
+# new-version.html file
+
+## Overview
+
+This HTML and CSS project demonstrates an interactive slider with a tooltip feature. The slider is styled using advanced CSS properties, including custom properties (`--value`), CSS Grid, Flexbox, and animations. It utilizes new CSS features like `@property`, `anchor-position`, and `view-timeline` to enhance user interaction and design.
+
+## Features
+
+- **Responsive Design**: Flexbox and Grid are used for layout, making the slider responsive to different screen sizes.
+- **Dynamic Tooltip**: Displays the current value of the slider in a tooltip that moves with the slider thumb.
+- **Advanced CSS Properties**:
+  - `@property --value`: A custom property to track the slider's value.
+  - `anchor-name` and `view-timeline`: These experimental properties are used in the `::-webkit-slider-thumb` for advanced interactions.
+
+## Browser Compatibility
+
+- The use of cutting-edge CSS properties (`anchor-name`, `view-timeline`) may have limited support across browsers. Check compatibility on [Can I Use](https://caniuse.com/) for [CSS Anchor Position](https://drafts.csswg.org/css-anchor-position-1/), [Easing Function Linear Function](https://caniuse.com/mdn-css_types_easing-function_linear-function), and [View Timeline](https://caniuse.com/mdn-css_properties_view-timeline).
+
+## How it Works
+
+1. **Slider Movement**: When the user interacts with the slider, the `input` event triggers the `updateTooltipPosition` function in JavaScript.
+2. **Tooltip Update**: The tooltip's position and content update according to the slider's current value.
+
+## Code Explanation
+
+- `@font-face`: Loads the "Roboto" font.
+- CSS `*` Selector: Ensures consistent box-sizing.
+- `.tooltip`: Styled to appear as a floating label, showing the slider's value.
+- CSS Custom Properties: `--value` is used for dynamically changing the slider value.
+- `@supports (anchor-name: --rad)`: Provides styles for browsers supporting the `anchor-name` property.
+- `::-webkit-slider-thumb`: Styles specific to the slider thumb, using experimental properties for more complex interactions.
+- `:root`: Defines a timeline scope for the slider.
+- `.slider-container`: Contains the slider and tooltip, styled to be visually appealing.
+- Keyframe Animation: The `sync` animation gradually changes the `--value` property.
+- JavaScript: Listens for slider movements and updates the tooltip position accordingly.
+
+## Installation
+
+To use the slider in your project, follow these steps:
+
+1. **Clone or Download the Repository**
+
+   - Clone this repo to your local machine or download the zip file.
+
+2. **Open the File**
+   - Open the `new-version.html` file in a web browser to see the slider in action.
+
+## Note
+
+The use of experimental CSS properties means that this code may not work as intended in all browsers. Always check for browser compatibility and fallbacks when using new CSS features in production environments.
 
 ## License
 
