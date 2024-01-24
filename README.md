@@ -21,7 +21,7 @@ This project creates a custom range slider with a dynamic tooltip. The tooltip d
 
 ## Codepen
 
-![codepen](https://codepen.io/Ritik-Banger/pen/VwRzobv)
+[codepen](https://codepen.io/Ritik-Banger/pen/VwRzobv)
 
 ## Installation
 
@@ -85,7 +85,7 @@ This HTML and CSS project demonstrates an interactive slider with a tooltip feat
 
 ## Codepen
 
-![codepen](https://codepen.io/Ritik-Banger/pen/bGZoNpR)
+[codepen](https://codepen.io/Ritik-Banger/pen/bGZoNpR)
 
 ## Browser Compatibility
 
